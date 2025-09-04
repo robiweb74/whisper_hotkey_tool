@@ -1,0 +1,35 @@
+# Core dependencies for Whisper Hotkey Tool
+# Audio processing and recording
+sounddevice>=0.4.6
+numpy>=1.21.0
+
+# Global hotkey functionality
+keyboard>=1.13.14
+
+# Whisper speech-to-text model
+faster-whisper>=0.10.0
+
+# Image processing for tray icon
+Pillow>=9.0.0
+
+# System tray functionality
+pystray>=0.19.4
+
+# Additional dependencies that may be required
+# PyTorch (automatically installed with faster-whisper)
+torch>=1.9.0
+
+# Audio file handling (usually included in Python standard library)
+# wave - included in standard library
+# tempfile - included in standard library
+# threading - included in standard library
+
+# Windows-specific audio (included in standard library)
+# winsound - included in standard library (Windows only)
+
+# System and OS operations (included in standard library)
+# os - included in standard library
+# sys - included in standard library
+
+# For building EXE (optional - only needed for building)
+# pyinstaller>=5.0.0
